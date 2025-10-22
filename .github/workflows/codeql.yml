@@ -41,7 +41,7 @@ jobs:
           # --- YOU MUST EDIT THIS LINE ---
           # 1. Check if your file is .xcworkspace or .xcodeproj
           # 2. Check your Scheme name in Xcode
-          xcodebuild -project oureceipt.xcodeproj -scheme aaa build
+          xcodebuild -project oureceipt.xcodeproj -scheme aaa build CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO
       # ----------------------------------------------------
       
       - name: Perform CodeQL Analysis
