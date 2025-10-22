@@ -41,7 +41,7 @@ jobs:
           # --- YOU MUST EDIT THIS LINE ---
           # 1. Check if your file is .xcworkspace or .xcodeproj
           # 2. Check your Scheme name in Xcode
-          xcodebuild -workspace OurReceipt.xcworkspace -scheme OurReceipt build
+          xcodebuild -project oureceipt.xcodeproj -scheme oureceipt build
       # ----------------------------------------------------
       
       - name: Perform CodeQL Analysis
