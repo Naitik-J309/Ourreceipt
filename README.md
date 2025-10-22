@@ -12,7 +12,7 @@ OurReceipt replaces these with seamless, secure, and eco-friendly digital altern
 The system connects consumer, merchant, and backend modules into one ecosystem:
 	•	Consumer App (SwiftUI) — Scan receipts, track purchases, visualize spending, and monitor personal carbon savings.
 	•	Merchant App (SwiftUI) — Generate receipts via QR codes, track transaction logs, and manage sales analytics.
-	•	Backend (Node.js + Express + PostgreSQL) — Handles receipt generation, storage, user authentication, and carbon-footprint analytics.
+	•	Backend (FireBase)- Handles receipt generation, storage, user authentication, and carbon-footprint analytics.
 
 ⸻
 
